@@ -10,12 +10,12 @@ def load_data(file):
 
 # Main function to run the app
 def main():
-    st.title("📊 Data Visualization Dashboard")
+    st.title(" Data Visualization Dashboard")
 
     # Message about CSV format
     st.markdown(
     """
-    ⚠ *Important:* Your CSV file should follow this format:
+     *Important:* Your CSV file should follow this format:
     - Columns required: Date, Product, Category, Sales, Profit  
     - Date must be in YYYY-MM-DD format  
     - Sales and Profit must be numeric values  
@@ -92,4 +92,5 @@ def main():
         )
 
 if __name__ == "__main__":
+
     main()
